@@ -1,0 +1,4 @@
+<h1> Здесь все события </h1>
+{% for i in eventi %}
+    <h2> <a href="/eventi/{{i.id}}"> {{i.name}} </a> </h2>
+{% endfor %}

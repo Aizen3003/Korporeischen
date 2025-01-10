@@ -1,0 +1,4 @@
+<h1> Здесь все работники </h1>
+{% for i in rabotniki %}
+    <h2> <a href="/rabotnik/{{i.id}}"> {{i.name}} </a> </h2>
+{% endfor %}
